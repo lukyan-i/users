@@ -5,7 +5,7 @@ UserActions::Application.routes.draw do
       resources :likes
     end
   end
-
+resources :events
   get '/categories/:category_name/:id', to: 'pictures#show'
 
   # get "categories/show"
