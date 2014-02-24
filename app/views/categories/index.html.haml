@@ -1,0 +1,7 @@
+-if !@category.blank?
+  -for category in @category
+    #logo
+      =link_to category.name, category
+
+-else
+  %p Error

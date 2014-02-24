@@ -1,0 +1,13 @@
+%p
+  =image_tag @picture.image
+%p
+  %h2
+    ='Like'
+    =@picture.likes.where(like: true).count
+
+=render "likes/form"
+%h2 Comments
+=render @picture.comments
+
+%h2 Add a comment:
+=render "comments/form"

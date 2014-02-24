@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_development
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: lukjanenko
+  password: liv__210890
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_test
+  host: localhost
+  pool: 5
+  timeout: 5000
+  username: lukjanenko
+  password: liv__210890
