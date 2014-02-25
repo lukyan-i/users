@@ -5,10 +5,14 @@ UserActions::Application.routes.draw do
       resources :likes
     end
   end
-resources :events
+resources :users do
+  resources :events
+end
   get '/categories/:category_name/:id', to: 'pictures#show'
 
-  # get "categories/show"
+
+  get "events/", to: 'events#index'
+  get "events/:user_id/comments", to: 'events#comments'
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
