@@ -1,5 +1,5 @@
 class PicturesController < ApplicationController
-
+  before_filter :authenticate_user!, only: [:show]
   def index
     @picture = Picture.all
   end

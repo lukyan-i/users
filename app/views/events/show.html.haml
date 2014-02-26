@@ -1,0 +1,30 @@
+-if !@event.blank?
+  %table
+    -for event in @event
+      -if event.action_type=="sign_in" || event.action_type=="sign_out"
+        %tr
+          %th Action
+          %th Time
+        %tr
+          %td
+            =event.data[:description]
+          %td
+            =event.created_at
+      -else
+        %tr
+          %th Category
+          %th Picture
+          %th Url
+          %th Action
+        %tr
+          %td
+            =event.data[:category_name]
+          %td
+            =event.data[:picture_name]
+          %td
+            =event.data[:url]
+          %td
+            =event.data[:description]
+-else
+  %p Error
+

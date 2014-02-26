@@ -5,11 +5,11 @@ UserActions::Application.routes.draw do
       resources :likes
     end
   end
-#resources :users do
- # resources :events
-#end
-  get '/categories/:category_name/:id', to: 'pictures#show'
-  get 'events/comments', :controller => 'events', :action => 'comments'
+
+  get '/categories/:category_name/:id', to: 'pictures#show', as: 'categories_picture'
+  get '/events/:id/:event_type', to: 'events#show', as: 'events_show'
+
+  #get '/events/:id/show', to: 'events#show', as: 'comments_user'
 
   get "events/", to: 'events#index'
 
@@ -43,13 +43,13 @@ UserActions::Application.routes.draw do
 
   # Example resource route with sub-resources:
   #   resources :products do
-  #     resources :comments, :sales
+  #     resources :show, :sales
   #     resource :seller
   #   end
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
-  #     resources :comments
+  #     resources :show
   #     resources :sales do
   #       get 'recent', on: :collection
   #     end
