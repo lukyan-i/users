@@ -1,23 +1,19 @@
--if !@user.blank?
-  %table
+%table
+  %tr
+    %th Users
+    %th{colspan: "5"} Actions
+
+  -@users.each do |user|
     %tr
-      %th Users
-      %th{colspan: "5"} Actions
-
-    -for user in @user
-      %tr
-        %td
-          = user.email
-        %td
-          = link_to "navigation" , events_show_path(user, "navigation")
-        %td
-          = link_to "user sign in" , events_show_path(user, "sign_in")
-        %td
-          = link_to "user sign out" , events_show_path(user, "sign_out")
-        %td
-          = link_to "likes" , events_show_path(user, "likes")
-        %td
-          = link_to "comments" ,  events_show_path(user, "comments")
-
-
-
+      %td
+        = user.email
+      %td
+        = link_to "navigation" , events_show_path(user, "navigation")
+      %td
+        = link_to "user sign in" , events_show_path(user, "sign_in")
+      %td
+        = link_to "user sign out" , events_show_path(user, "sign_out")
+      %td
+        = link_to "likes" , events_show_path(user, "likes")
+      %td
+        = link_to "comments" ,  events_show_path(user, "comments")

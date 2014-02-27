@@ -1,14 +1,11 @@
 %p
   %h2
     Category:
-    =@category.name
+    =@categories.name
 
--@picture=Picture.where(category_id: @category.id)
--@picture = Kaminari.paginate_array(@picture).page(params[:page]).per(5)
--if !@picture.blank?
-  -for picture in @picture
-    =link_to(image_tag(picture.image.url(:medium)), categories_picture_path(picture.category.name, picture.id))
--else
-  %p Error
+-@pictures = Kaminari.paginate_array(@pictures).page(params[:page]).per(5)
 
-=paginate @picture
+-@pictures.each do |picture|
+  =link_to(image_tag(picture.image.url(:medium)), categories_picture_path(picture.category.name, picture.id))
+
+=paginate @pictures
