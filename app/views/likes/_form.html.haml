@@ -1,2 +1,5 @@
 =form_for [@picture.category, @picture, @picture.likes.build] do |f|
-  =f.submit("Like")
+  - unless @seach_user_like and @seach_user_like.picture_like
+    =f.submit("Like")
+  - else
+    =f.submit("Unlike")

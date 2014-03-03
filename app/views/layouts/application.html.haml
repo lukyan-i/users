@@ -7,7 +7,22 @@
     = csrf_meta_tag
 
   %body
-  = render 'layouts/header'
-  .container
-    = yield
-    = render 'layouts/footer'
+    %header.navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container
+          = link_to "Gallery", root_path, id: "logo"
+          %nav
+            %ul.nav.pull-right
+              %li= link_to "Categories", categories_path
+              - if user_signed_in?
+                %li= link_to "Sign out", destroy_user_session_path, :method => :delete
+                %li= link_to "Event", events_path
+              - else
+                %li= link_to "Sign in", user_session_path
+    .container
+      = yield
+
+      %footer
+        %nav
+          %ul
+            © 2014, FaceIT

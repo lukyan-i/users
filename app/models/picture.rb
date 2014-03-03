@@ -7,9 +7,7 @@ class Picture < ActiveRecord::Base
 
       :styles => {
 
-          :medium => ["128x128#", :png],
-
-          :large => ["300x300>", :png]
+          :medium => ["128x128#", :png]
 
       }
   }

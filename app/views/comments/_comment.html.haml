@@ -1,6 +1,6 @@
 %p
   %strong Commenter:
-  ="#{User.find(comment.user_id).email}"
+  =comment.user.email
   %strong | Create at:
   =comment.created_at
 %p

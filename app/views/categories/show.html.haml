@@ -1,9 +1,7 @@
 %p
   %h2
     Category:
-    =@categories.name
-
--@pictures = Kaminari.paginate_array(@pictures).page(params[:page]).per(5)
+    =@category.name
 
 -@pictures.each do |picture|
   =link_to(image_tag(picture.image.url(:medium)), categories_picture_path(picture.category.name, picture.id))

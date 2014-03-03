@@ -1,21 +1,19 @@
 %table
   -@events.each do |event|
+    %td
+      =event.data[:description]
     -if event.action_type=="sign_in" || event.action_type=="sign_out"
+      %td
+        =event.created_at
       %tr
-        %td
-          =event.data[:description]
-        %td
-          =event.created_at
     -else
+      %td
+        =event.data[:category_name]
+      %td
+        =event.data[:picture_name]
+      %td
+        =event.data[:url]
       %tr
-        %td
-          =event.data[:description]
-        %td
-          =event.data[:category_name]
-        %td
-          =event.data[:picture_name]
-        %td
-          =event.data[:url]
 
 
 

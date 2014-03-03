@@ -1,0 +1,347 @@
+  [1m[36mActiveRecord::SchemaMigration Load (11.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (24.8ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.4ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.6ms)[0m  [1mINSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:37:54', '2014-03-03 10:37:54', 980190962)[0m
+PG::UndefinedColumn: ERROR:  column "picture_id" of relation "pictures" does not exist
+LINE 1: INSERT INTO "pictures" ("category_id", "picture_id", "create...
+                                               ^
+: INSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:37:54', '2014-03-03 10:37:54', 980190962)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.4ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:40:43', '2014-03-03 10:40:43', 980190962)[0m
+PG::UndefinedColumn: ERROR:  column "picture_id" of relation "pictures" does not exist
+LINE 1: INSERT INTO "pictures" ("category_id", "picture_id", "create...
+                                               ^
+: INSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:40:43', '2014-03-03 10:40:43', 980190962)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (20.1ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:43:06', '2014-03-03 10:43:06', 980190962)[0m
+PG::UndefinedColumn: ERROR:  column "picture_id" of relation "pictures" does not exist
+LINE 1: INSERT INTO "pictures" ("category_id", "picture_id", "create...
+                                               ^
+: INSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:43:06', '2014-03-03 10:43:06', 980190962)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.3ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:51:57', '2014-03-03 10:51:57', 980190962)[0m
+PG::UndefinedColumn: ERROR:  column "picture_id" of relation "pictures" does not exist
+LINE 1: INSERT INTO "pictures" ("category_id", "picture_id", "create...
+                                               ^
+: INSERT INTO "pictures" ("category_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:51:57', '2014-03-03 10:51:57', 980190962)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.4ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:53:52', '2014-03-03 10:53:52', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:53:52', '2014-03-03 10:53:52', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2014-03-03 10:53:52', '2014-03-03 10:53:52', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2014-03-03 10:53:52', '2014-03-03 10:53:52', 298486374)[0m
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=() already exists.
+: INSERT INTO "users" ("created_at", "updated_at", "id") VALUES ('2014-03-03 10:53:52', '2014-03-03 10:53:52', 298486374)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.3ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:55:11', '2014-03-03 10:55:11', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:55:11', '2014-03-03 10:55:11', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "users" ("email lukyan-i@yandex.ua", "created_at", "updated_at", "id") VALUES (NULL, '2014-03-03 10:55:11', '2014-03-03 10:55:11', 980190962)
+PG::UndefinedColumn: ERROR:  column "email lukyan-i@yandex.ua" of relation "users" does not exist
+LINE 1: INSERT INTO "users" ("email lukyan-i@yandex.ua", "created_at...
+                             ^
+: INSERT INTO "users" ("email lukyan-i@yandex.ua", "created_at", "updated_at", "id") VALUES (NULL, '2014-03-03 10:55:11', '2014-03-03 10:55:11', 980190962)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.3ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:56:03', '2014-03-03 10:56:03', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:56:03', '2014-03-03 10:56:03', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('lukyan-i@yandex.ua', '2014-03-03 10:56:03', '2014-03-03 10:56:03', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('vvv@yandex.ua', '2014-03-03 10:56:03', '2014-03-03 10:56:03', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "comments"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:56:03', '2014-03-03 10:56:03', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:56:03', '2014-03-03 10:56:03', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "categories"[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 10:56:03', '2014-03-03 10:56:03')
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 10:56:03', '2014-03-03 10:56:03')[0m
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id)=(1) already exists.
+: INSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 10:56:03', '2014-03-03 10:56:03')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Unable to load controller, underlying cause No such file to load -- controller 
+
+ /home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `block in require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:214:in `load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:229:in `require'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:330:in `require_or_load'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:289:in `depend_on'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activesupport-4.0.2/lib/active_support/dependencies.rb:207:in `require_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:773:in `try_to_load_dependency'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:792:in `block in require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `each'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:790:in `require_fixture_classes'
+/home/lukjanenko/.rvm/gems/ruby-2.1.0/gems/activerecord-4.0.2/lib/active_record/fixtures.rb:768:in `fixtures'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:12:in `<class:TestCase>'
+/home/lukjanenko/rubyfiles/user_actions/test/test_helper.rb:5:in `<top (required)>'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/home/lukjanenko/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+test/models/category_test.rb:1:in `<main>'
+  [1m[35m (0.4ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:56:58', '2014-03-03 10:56:58', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:56:58', '2014-03-03 10:56:58', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('lukyan-i@yandex.ua', '2014-03-03 10:56:58', '2014-03-03 10:56:58', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('vvv@yandex.ua', '2014-03-03 10:56:58', '2014-03-03 10:56:58', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "comments"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:56:58', '2014-03-03 10:56:58', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:56:58', '2014-03-03 10:56:58', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "categories"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 10:56:58', '2014-03-03 10:56:58')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (2, 'MyStr', '2014-03-03 10:56:58', '2014-03-03 10:56:58')[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "controllers"
+PG::UndefinedTable: ERROR:  relation "controllers" does not exist
+LINE 1: DELETE FROM "controllers"
+                    ^
+: DELETE FROM "controllers"
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:57:33', '2014-03-03 10:57:33', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 10:57:33', '2014-03-03 10:57:33', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('lukyan-i@yandex.ua', '2014-03-03 10:57:33', '2014-03-03 10:57:33', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('vvv@yandex.ua', '2014-03-03 10:57:33', '2014-03-03 10:57:33', 298486374)[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "comments"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:57:33', '2014-03-03 10:57:33', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 10:57:33', '2014-03-03 10:57:33', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "categories"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 10:57:33', '2014-03-03 10:57:33')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (2, 'MyStr', '2014-03-03 10:57:33', '2014-03-03 10:57:33')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "events"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "events" ("created_at", "updated_at", "id") VALUES ('2014-03-03 10:57:33', '2014-03-03 10:57:33', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "events" ("created_at", "updated_at", "id") VALUES ('2014-03-03 10:57:33', '2014-03-03 10:57:33', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "likes"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "likes" ("user_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:57:33', '2014-03-03 10:57:33', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "likes" ("user_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 10:57:33', '2014-03-03 10:57:33', 298486374)[0m
+  [1m[35m (23.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+----------------------------
+CategoryTest: test_the_truth
+----------------------------
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "categories" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "events" DISABLE TRIGGER ALL;ALTER TABLE "likes" DISABLE TRIGGER ALL;ALTER TABLE "pictures" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM "pictures"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 11:02:13', '2014-03-03 11:02:13', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "pictures" ("category_id", "created_at", "updated_at", "id") VALUES (1, '2014-03-03 11:02:13', '2014-03-03 11:02:13', 298486374)
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('lukyan-i@yandex.ua', '2014-03-03 11:02:13', '2014-03-03 11:02:13', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("email", "created_at", "updated_at", "id") VALUES ('vvv@yandex.ua', '2014-03-03 11:02:13', '2014-03-03 11:02:13', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "comments"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 11:02:13', '2014-03-03 11:02:13', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "comments" ("user_id", "picture_id", "body", "created_at", "updated_at", "id") VALUES (1, 1, 'MyText', '2014-03-03 11:02:13', '2014-03-03 11:02:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "categories"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (1, 'MyString', '2014-03-03 11:02:13', '2014-03-03 11:02:13')
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "categories" ("id", "name", "created_at", "updated_at") VALUES (2, 'MyStr', '2014-03-03 11:02:13', '2014-03-03 11:02:13')[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "events"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "events" ("created_at", "updated_at", "id") VALUES ('2014-03-03 11:02:13', '2014-03-03 11:02:13', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "events" ("created_at", "updated_at", "id") VALUES ('2014-03-03 11:02:13', '2014-03-03 11:02:13', 298486374)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "likes"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "likes" ("user_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 11:02:13', '2014-03-03 11:02:13', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "likes" ("user_id", "picture_id", "created_at", "updated_at", "id") VALUES (1, 1, '2014-03-03 11:02:13', '2014-03-03 11:02:13', 298486374)[0m
+  [1m[35m (25.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "categories" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "events" ENABLE TRIGGER ALL;ALTER TABLE "likes" ENABLE TRIGGER ALL;ALTER TABLE "pictures" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+---------------------------------------
+CategoryTest: test_the_add_new_category
+---------------------------------------
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.9ms)[0m  INSERT INTO "categories" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", Mon, 03 Mar 2014 11:02:13 UTC +00:00], ["updated_at", Mon, 03 Mar 2014 11:02:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK

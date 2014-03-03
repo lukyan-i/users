@@ -5,11 +5,9 @@ class LikesController < ApplicationController
 
     @like = @picture.likes.where(user: current_user, picture_id: params[:picture_id]).first_or_create
 
-    @like.update_attribute(:like, !@like.like)
+    @like.update_attribute(:picture_like, !@like.picture_like)
 
     Event.create(:user_id=>current_user.id, :action_type=>"likes", :data => {:url=>request.original_url,:category_name=>Category.find(@picture.category_id).name,:picture_name=>@picture.image_file_name,:description=>'Liked picture'})
-
-    @like_status=Like.find_by(user_id: current_user.id, picture_id: params[:picture_id])
 
     redirect_to category_picture_path(@picture.category.name, @picture.id)
   end
