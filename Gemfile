@@ -6,6 +6,9 @@ gem 'haml'
 gem 'puma'
 gem 'therubyracer', require: "v8"
 gem 'bootstrap-sass', '2.3.2.0'
+
+gem "paperclip-dropbox", ">= 1.1.7"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
